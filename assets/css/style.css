@@ -1,0 +1,466 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+body {
+    font-family: 'Kalpurush', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.my-shadow {
+    box-shadow: 0px 0px 10px #343A40;
+}
+
+.my-display {
+    display: none !important;
+}
+
+.my-border {
+    border-left: 1px dashed #02080f !important;
+}
+
+.active {
+    background-color: #343A40 !important;
+}
+
+.active_footer {
+    color: #f79424 !important;
+}
+
+
+/** Index.html Page Begin*/
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+    float: right;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoYt:hover {
+    background-color: #e52d27;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #1d74d8;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #1f2027;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+}
+
+
+/* ==============*/
+
+.my-menu a {
+    font-size: 1.2rem;
+}
+
+.my-menu a:hover {
+    background-color: #343a40;
+    transition: all ease-in-out 0.4s;
+}
+
+
+/* Slider */
+
+.carousel-inner img {
+    width: 830px;
+    height: 380px;
+}
+
+.my-slider h3 {
+    box-shadow: inset 0px 0px 40px #02080f;
+    padding: 10px;
+}
+
+
+/* .my-slide {
+        height: 385px;
+}
+*/
+
+.carousel-indicators .active {
+    background-color: #f9fdff;
+}
+
+.carousel-indicators li {
+    background-color: #343a40;
+}
+
+
+/* End of Slider */
+
+.my-parent {
+    position: relative;
+}
+
+.my-child {
+    position: absolute;
+    z-index: 99;
+}
+
+.my-newsupdate {
+    line-height: 20px;
+}
+
+.my-newsupdate marquee {
+    margin-left: 185px;
+}
+
+.my-newsupdate ul {
+    list-style: none;
+}
+
+.my-newsupdate ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.my-newsupdate ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.my-newsupdate ul li a:hover {
+    color: #fbff00;
+}
+
+.Blink {
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* news card */
+
+
+/*----  Main Style  ----*/
+
+#cards_landscape_wrap-2 {
+    text-align: center;
+    background: #F7F7F7;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+    transition: all .9s ease;
+    width: 100%;
+    height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+    opacity: 0.7;
+    transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+    text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+    padding: 30px 18px 10px 18px;
+}
+
+#cards_landscape_wrap-2 .card-flyer,
+.my-video {
+    background: #FFFFFF;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover,
+.my-video:hover {
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    transition: all 0.2s ease-in;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    color: #000000;
+    text-align: justify;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6,
+.my-video h6 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px; */
+    color: #00acc1;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box a {
+    text-decoration: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box button:hover {
+    background-color: #343a40;
+    transition: all .3s ease;
+}
+
+.my-allpagebtn {
+    margin-top: 190px;
+}
+
+
+/* end news card */
+
+.my-video {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.my-video h6 {
+    padding-bottom: 10px;
+}
+
+.my-allpagebtn-1 {
+    margin-top: 100px;
+}
+
+.my-footer ul {
+    list-style: none;
+}
+
+.my-footer ul>li>a {
+    color: grey;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.my-footer ul>li>a:hover,
+.my-footer a:hover {
+    color: #f7e371;
+    font-weight: 500;
+}
+
+.my-footer .fa {
+    color: #304f50;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 2.25rem;
+}
+
+.my-footer #to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background-color: #f79424;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: content-box;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    transition: all ease-in .3s;
+}
+
+.my-footer #to-top:hover {
+    background-color: #007BFF;
+}
+
+.my-footer #bottom-footer {
+    color: white;
+    padding-top: .5rem;
+}
+
+.vertical-links {
+    padding-left: 0px !important;
+}
+
+.my-footer .vertical-links>li {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.my-footer .vertical-links>li>a {
+    color: white;
+    margin-left: 1rem;
+}
+
+.my-footer .vertical-links>li>a:hover {
+    color: #f79424;
+}
+
+
+/** Index.html Page End*/
+
+
+/** login.html Page Begin*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+.my-login,
+.my-reg,
+.my-privacyf * {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/** login.html Page End*/
+
+@media (min-width: 992px) {
+    .my-display-1 {
+        display: inline !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px!important;
+        max-width: 900px !important;
+    }
+    .my-title {
+        font-size: 2rem !important;
+        margin-bottom: 0px !important;
+    }
+    .my-navbar {
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 1030 !important;
+    }
+    .my-navbar .p-3 {
+        padding: 10px !important;
+    }
+    .my-menu a {
+        text-align: center !important;
+    }
+    .my-slide {
+        height: 280px !important;
+        margin-bottom: 10px !important;
+    }
+    .my-slider h3 {
+        font-size: 20px !important;
+    }
+    .carousel-inner img {
+        /* width: 100%; */
+        height: 280px !important;
+    }
+    .my-display {
+        display: inline !important;
+    }
+    .my-display-1 {
+        display: none!important;
+    }
+    ul.social-network {
+        margin: 0 auto !important;
+        margin-bottom: 10px !important;
+    }
+    .my-border {
+        border-left: none !important;
+    }
+    .my-hotline img {
+        width: 380px !important;
+    }
+    .my-newsupdate h5 {
+        font-weight: 12px !important;
+    }
+    .my-allpagebtn {
+        margin: 20px 0px !important;
+    }
+    .my-allpagebtn-1 {
+        margin: 10px 0px !important;
+    }
+    .sticky-top {
+        top: 66px !important;
+    }
+    #navbarCollapse {
+        padding: 5px 0px !important;
+    }
+    @media (max-width: 767.98px) {
+        .my-navbar h1 {
+            font-size: 24px !important;
+        }
+        .my-bulletin {
+            display: none !important;
+        }
+        .my-newsupdate marquee {
+            margin-left: 45px !important;
+        }
+    }
+    @media (max-width: 575.98px) {
+        .my-navbar h1 {
+            font-size: 22px !important;
+        }
+        .my-navbar a {
+            margin-right: 0px !important;
+        }
+        .navbar-toggler-icon {
+            padding: 0px !important;
+        }
+        .my-slide {
+            height: 280px !important;
+            margin-bottom: 10px !important;
+        }
+        .carousel-inner img {
+            width: 100% !important;
+        }
+    }
+}
